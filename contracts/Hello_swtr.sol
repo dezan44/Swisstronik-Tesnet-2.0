@@ -21,7 +21,7 @@ contract Swisstronik {
     function setMessage(string memory _message) public {
         message = _message;
     }
-
+    
     /**
      * @dev getMessage() retrieves the currently stored message in the contract
      * @return The message associated with the contract
